@@ -1,0 +1,88 @@
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Concert+One|Fredoka+One|Gamja+Flower|Kalam|Permanent+Marker|Rajdhani|Righteous" rel="stylesheet">
+
+        <title>RGameB</title>
+     
+    </head>
+
+
+<body class="container">
+    <div class="row">
+            <div class="col-md-6 offset-md-3 col-xs-12 col-sm-6 offset-sm-3 color "> 
+                <div id="ayuda">
+                    <article>
+                        <button id="helpClose" class="helpClose"><span class="oi oi-x"></span></button>
+                        <h2 class="helpH2">Ayuda</h2>
+                    </article>
+                    <article>
+                        <p>RGameB es un juego en el cual se pondrá a prueba
+                            la habilidad visual del participante. Se le mostrará
+                            en pantalla una combinacion de colres en RGB 
+                            (Red/Rojo, Green/Verde, Blue/Azul) la cual tendrá
+                            que adivinar entre los cuadrados debajo.
+                            Con 4 niveles de dificultad y con 3 vidas te reto
+                            a saber que tan agudizada tienes la visión!
+                        </p>
+                    </article>
+                    
+                </div>
+            </div>
+        </div>  
+
+    <div class="row">
+        <div class="col-md-6 offset-md-3 col-xs-12 col-sm-6 offset-sm-3 color "> <!--espacio disponible from top to bottom-->
+            
+            <section class="end-recuadro">
+                <header class="header">
+                    <h1>RGameB</h1>
+                    <div class="display-inline-flex">
+                        <p>Color RGB: </p><p id="consigna"></p>
+                    </div>
+                </header>
+            </section>
+
+            <section id="cajita">
+            </section>
+
+            <section>
+                <article>
+                    <div>
+                        <input class="form-control form-group" id="mensajes" type="text" readonly="false">
+                    </div>
+                    <div class="end-recuadro end-botones">
+                        <div id="vidas"></div>                       
+                    </div>
+                </article>
+            </section>
+
+               
+        
+            <section class="end-recuadro end-botones text-center">
+                <button id="help" class="btn button-end btn-jugador izq">
+                    <span class="oi oi-question-mark"></span>
+                </button>    
+                <button id="home" class="btn button-end btn-jugador der">
+                    <span class="oi oi-home"></span>
+                </button>
+            </section>
+
+
+
+        </div>
+    </div>
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/scriptGame.js"></script>
+
+
+</body>
+</html>
+

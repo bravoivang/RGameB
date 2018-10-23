@@ -1,0 +1,21 @@
+<!--
+<main class="conteiner-fluid text-center index">
+        <h1 class="" id="nombreJugador"></h1>
+    <header class="row texto">        
+        <h2 class="col-3">¿</h2>
+        <h2 class="col-6">Estas listo<br>para ganar</h2>
+        <h2 class="col-3">?</h2>
+    </header>
+    <section class="row">       
+        <article class="">
+            <p id="timmer">&nbsp;</p>
+        </article>
+        <article class="">
+            <p>Nivel:&nbsp;<span id="lvl"></span></p>
+        </article>
+        <article class="">
+                <div id="iconLvl"></div>
+            
+        </article>
+    </section>
+</main> -->

@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    background-color: #ecdede;
+}
+
+.color{
+    background-color: blue;
+
+    margin-top: 20px;
+     
+}
+
+.end-recuadro{
+    background-color:red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.end-botones{
+    background-color:blueviolet;
+    
+}
+
+button{
+    display: inline;
+}
+
+.hr {
+    border: 3px solid rgba(200,120,120, 0.4); 
+    border-radius: 300px/10px; 
+    height: 0px; 
+    text-align: center;
+    width: 70%;
+    box-shadow: 0 0 10px 0 rgba(115, 65, 65, 0.7);
+    
+}
+
+h2{
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#jugador{
+    font-size: 3rem;
+}

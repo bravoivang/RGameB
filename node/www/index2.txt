@@ -1,0 +1,29 @@
+<!--
+<main class="conteiner-fluid text-center"> pantalla principal
+    <header class="row row-index"> logo
+        <h1 class="col">RGameB</h1>
+    </header>
+    <section class="row row-index index"> nombre/nivel/go
+        <article class="">
+                <button id="btn1" class="btn" value="">Jugador</button>
+                <input type="text" id="inp1" class="form-control" value="" style="display:none" placeholder="ingresa tu nombre">
+           
+               
+        </article>
+        <article class="form-group">                            
+                <select class="form-control" id="lvl">
+                    <option>Facil</option>
+                    <option>Medio</option>
+                    <option>Dificil</option>
+                    <option>Ojo Absoluto</option>
+                </select>
+        </article>
+        <article class="">
+            <button id="go" class="btn btn-primary">
+                Empezar
+            </button>
+        </article>
+    </section>
+
+</main>
+-->

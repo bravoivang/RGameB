@@ -1,0 +1,28 @@
+
+<main>
+    <header> <!--nombre del juego-->
+    </header>
+    <section> <!--encabezado-->
+        <article> <!--mensajes al jugador ("tu puedes usuario")-->
+        </article>
+        <article id="consigna"> <!--consigna / fondo-->            
+        </article>
+        <article> <!--vidas y dificultad-->
+            <div id="vidas"></div> <!--vidas-->      
+            <div></div> <!--dificultad-->    
+        </article>
+    </section>
+    <section> <!--espaciod de juego / fondo-->
+        <article > <!--dibujo de cuadrados-->
+        </article>
+    </section>
+    <section> <!--opciones-->
+        <article> 
+            <div> <!--nuevos colores (siempre)-->               
+            </div>
+            <div> <!--regresar al home (siempre)-->  
+                <a class="btn" href="index.html">volver a index</a>             
+            </div>
+        </article>
+    </section>
+</main>

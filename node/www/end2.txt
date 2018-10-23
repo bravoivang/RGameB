@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/bootstrap-theme.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>RGameB</title>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+<main>
+    <section> <!-- recuadro resultado -->
+        <header> <!--perdiste/ganaste!-->
+            <p id="resultado"></p>
+        </header>
+        <article> <!--resumen--> 
+           <header> <!--felicidades usuario-->
+                <p id="saludo"></p>
+           </header>
+           <div>
+               <ul>
+                   <li > <!--jugaste en nivel: xxxx-->
+                    <header>Nivel de juego</header>
+                    <p id="dificultad"></p>
+                   </li>
+                   <li>  <!--vidas restantes-->    
+                    <header>Vidas</header>
+                    <div id="vidas"></div>               
+                   </li>
+                   <li> <!--puntos-->   
+                    <header>Puntos</header>
+                    <p id="puntos"></p>                    
+                   </li>
+                   <li> <!--tiempo--> 
+                    <header>Tiempo de juego</header>
+                    <img id="tiempo" src="">
+                   </li>
+               </ul>
+           </div>  
+           
+        </article>
+        <article> <!--opciones-->
+            <div> <!--volver a jugar mismo nivel (si perdiste/ganaste)-->               
+            </div>
+            <div> <!--jugar siguiente nivel (si ganaste)-->               
+            </div>
+            <div> <!--regresar al home (siempre)-->               
+            </div>
+        </article>
+    </section>
+</main>
+
+<script type="text/javascript" src="js/scriptEnd.js"></script>
+</body>
+</html>
+

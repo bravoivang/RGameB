@@ -1,0 +1,25 @@
+
+
+.end-recuadro{
+    height: 500px;
+    width: 360px;
+
+    /*background-color:#edafb8;*/
+    background-image: linear-gradient(124deg, #e8ddb5 25%, #b30958 25%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-size: 600% 600%;
+    animation: recuadro 5s ease 0s infinite alternate-reverse;
+ 
+    /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+  
+
+}
+
+@keyframes recuadro{
+    0%{background-position:10% 10%}
+    100%{background-position:40% 40%}
+   /* 100%{background-position:19% 0%}*/
+}

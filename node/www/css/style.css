@@ -1,0 +1,459 @@
+.contenedorColores{
+    height: 100px;
+    width: 50%;
+    display: inline-block;
+    
+    padding: 5px;
+       
+}
+
+.cuadradosColores{
+    margin: 0 auto;
+    
+    border: 0px solid white;
+    box-shadow: 0px 0px 5px 2px white;
+    
+    max-width: 200px;
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+}
+
+.cuadradosColores:hover{
+    box-shadow: 0px 0px 25px 2px white;
+}
+
+.cuadradosColoresDeshabilitados{
+    margin: 0 auto;
+    border: 0px solid transparent;
+    box-shadow: none;
+    
+    background-color: transparent !important;
+    max-width: 200px;
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: "kirbyss";
+    src: url("../font/kirbyss.ttf") format("truetype");
+
+}
+
+body{
+    background-image: linear-gradient(141deg, #333333 0%, #666a86 51%, #95b8d1 75%);
+  /*  background-image: url("../img/tetris.png");*/
+     background-size: cover;
+     height: 100vh;
+  /*TIPOGRAFIAS : Concert One|Fredoka One|Gamja Flower|Kalam|Permanent Marker|Rajdhani|Righteous*/
+     font-family: 'Rajdhani', cursive !important;
+}
+
+.color{
+    background-color: "none";
+
+    margin-top: 20px;
+     
+}
+
+.end-recuadro{
+    /*background-color:#edafb8;*/
+    background-image: linear-gradient(246deg, #e8ddb5 25%, #edafb8 25%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+
+    /*animation: duration timing-function delay iteration-count direction fill-mode;*/
+
+}
+
+
+/*
+.timmer-recuadro{
+    /*background-color:#edafb8;*//*
+    background-image: radial-gradient(#e8ddb5 15%, #edafb8 0%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}*/
+
+
+.end-botones{
+   background-image: none;
+   box-shadow: 0px 0px 5px 1px white;
+   border-radius: 10px;
+
+}
+
+
+select{
+ /*   margin-left: 20%;
+    margin-right: 20%; */
+    align-items: center;
+}
+
+article,button,select{
+width: auto;    
+}
+
+.btnAuto{
+    width: 100% !important;
+    
+}
+/* boton jugador*/
+.btn-jugador{
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+    /**/
+    background-image: -webkit-linear-gradient(top, #6352ce 0%, #5849b5 100%);
+    background-image:      -o-linear-gradient(top, #6352ce 0%, #594ab5 100%);
+    background-image:         linear-gradient(to bottom, #6352ce 0%, #594ab5 100%);
+    border-top: 1px #6352ce !important;
+    border-bottom: 1px #594ab5 !important;
+    /**/
+    background-repeat: repeat-x;
+    
+    
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+    color: white;
+}
+
+.btn-jugador:active {
+    background-color: #594ab5;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+
+.btn-jugador:hover {
+    background-image: none ;
+    background-color:white;
+    color:violet;
+}
+/* boton jugador*/
+
+.btn-anulado{
+   /* background-image: none;
+    background-image: none;
+    background-image: none;
+    border-top: 1px transparent !important;
+    border-bottom: 1px transparent !important;
+    display: inline;
+
+    text-shadow: none;
+    
+    background-repeat: no-repeat;
+    box-shadow: none;
+    color: transparent;*/
+    visibility: hidden;
+    width: 30%;
+}
+
+.button-end{
+    background-image: -webkit-linear-gradient(top, #6352ce 0%, #5849b5 100%);
+    background-image:      -o-linear-gradient(top, #6352ce 0%, #594ab5 100%);
+    background-image:         linear-gradient(to bottom, #6352ce 0%, #594ab5 100%);
+    border-top: 1px #6352ce !important;
+    border-bottom: 1px #594ab5 !important;
+    display: inline;
+    
+}
+
+.button-end.der{
+    width: 30%;
+    border-radius: 5px 25px 25px 5px;
+}
+
+.button-end.izq{
+    width: 30%;
+    border-radius: 25px 5px 5px 25px;
+}
+
+
+.button-end.midAlone{
+    width: 50%;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.button-end.mid{
+    border-radius: 5px;
+}
+
+.oi{
+    vertical-align: middle !important; 
+    text-align: center !important;
+    top: -1px !important;
+}
+
+.hr {
+    border: 1px solid rgba(102, 106, 134, 0.4); 
+    border-radius: 30px/10px; 
+    height: 0px; 
+    text-align: center;
+    width: 70%;
+    box-shadow: 0 0 20px 0 rgba(115, 65, 65, 0.7);
+    
+}
+
+
+h2{
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#jugador{
+    font-size: 3rem;
+}
+
+.index{
+    margin-left: 20% !important; 
+    margin-right: 20% !important;
+  
+}
+
+.row-index{
+    margin: 10% 0% 10% 0%;
+}
+
+
+h1{
+    height: auto;
+  /*  font-size: 9vw; */
+    color:black;
+    
+}
+
+.header.principal h1{
+    animation: h1 1s ease-in-out 0s infinite alternate-reverse;
+}
+
+@keyframes h1{
+
+    to {transform:scaleX(1.2)}
+
+}
+
+
+.form-control,.btn{
+    height: auto;
+   /* font-size: 4vw;*/
+}
+
+
+.form-group{
+    margin: 20px 0% 10px 0%;
+    
+}
+
+#timmer{
+    font-size: 400%;
+    text-align: inherit;
+}
+/*
+p{
+    font-size: 24px;
+}
+*/
+.iconLvl{
+    background-size: contain;
+    margin: 0 auto;
+    height: 100px;
+}
+/*
+.col-3,.col-6{
+    display: inline-block;
+    vertical-align: middle;
+}
+.col-6{
+    font-size: 50%;
+}
+
+.col-3{
+    font-size: 100%;
+}
+
+.texto{
+    font-size: 50px;
+}*/
+
+
+
+.maxIcon > li{
+    width: inherit;
+    height: 45px;
+    min-height: 24px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.monedas{
+    background-image: url('../img/coin.png');
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    display: inline-flex;
+ /*  animation: animationMoneda 2s none 1s infinite alternate-reverse;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+ */
+   
+}
+/*
+@keyframes animationMoneda {
+    from   {margin-bottom: 0px}
+    to     {margin-bottom: 30px}
+}*/
+
+.tiempo{
+    background-image: url('../img/stopclock.png');
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    display: inline-flex;
+}
+
+
+.calavera{
+    background-image: url('../img/skull.png');
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    display: inline-flex;
+}
+
+.corazones{
+    background-image: url('../img/corazon.png');
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    display: inline-flex;
+}
+
+li{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+ul{
+    padding: 0;
+    width: inherit;
+}
+
+.header{
+    text-align: center;
+}
+
+.header p {
+    font-size: 20px;
+}
+
+.p-flex{
+    width: inherit;
+    display: flex;
+    
+}
+
+#p-izq{
+    margin-left: auto;
+    font-size: 4rem;
+  /*  animation: p-izq 250ms linear  0s infinite alternate-reverse;*/
+}
+@keyframes p-izq{
+
+    to {  transform: rotate(100deg)}
+
+}
+@keyframes p-der{
+
+    to {  transform: rotate(100deg)}
+
+}
+#p-med{
+    margin: 0 auto;    
+    font-size: 2rem;
+}
+#p-der{
+    margin-right: auto;
+    font-size: 4rem;
+ /*   animation: p-der 250ms linear  0s infinite alternate-reverse;*/
+}
+
+#vidas, #puntos, #tiempo{
+    text-align: center;
+    width: 100%;
+
+}
+/*
+#puntos, #tiempo > div{
+    display: inline-flex;
+    text-align: center;
+}*/
+#dificultad{
+    width: 100%;
+    text-align: center;
+}
+
+#dificultad > p{
+    display: inline-flex;
+}
+
+
+.display-inline-flex > p{
+    display: inline-flex;
+}
+
+.help-game{
+    height: 50% !important;
+}
+
+.help{
+    height: 100%;
+    width: auto;
+    color: white;
+    border: solid;
+    padding: 10px;
+    border-width: 0px;
+    /* border-right-width: 0px; */
+    box-shadow: 0px 0px 5px 1px white;
+    border-radius: 10px;
+}
+
+.help > article > p{
+   text-align: justify;
+}
+
+.helpClose{
+    width: auto !important;
+    margin-top: 15px;
+
+    margin-bottom: 10px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+    /**/
+    background-image: -webkit-linear-gradient(top, #6352ce 0%, #5849b5 100%);
+    background-image:      -o-linear-gradient(top, #6352ce 0%, #594ab5 100%);
+    background-image:         linear-gradient(to bottom, #6352ce 0%, #594ab5 100%);
+    /**/
+   
+    border: 1px #6352ce !important;
+    
+    
+    
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+    color: white;
+
+}
+
+.helpClose:hover {
+    background-image: none ;
+    background-color:white;
+    color:violet;
+    
+}
+
+.helpH2{
+    display: inline;
+    vertical-align: middle;
+    margin-left: 25%;
+}
